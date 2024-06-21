@@ -33,6 +33,8 @@
 
   <title>{{ title }}</title>
 
+  <link rel="shortcut icon" href="{{ "/assets/img/icon.ico" | relative_url }}">
+
   {% capture author %}
     {%- if page.author -%}
       {{  page.author | strip_html }}
