@@ -1130,24 +1130,3 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-
-.site-header {
-  background-image: url('/assets/img/bg3.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 400px; /* 根据需要调整高度 */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white; /* 根据需要调整文本颜色 */
-  text-align: center;
-}
-
-.site-title {
-  font-size: 3rem; /* 调整字体大小 */
-}
-
-.site-description {
-  font-size: 1.5rem; /* 调整字体大小 */
-}
