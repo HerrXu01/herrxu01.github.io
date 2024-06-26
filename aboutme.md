@@ -5,10 +5,13 @@ title: About Me
 
 # Zhitao Xu
 
-Email: [ge26hax@mytum.de](mailto:ge26hax@mytum.de)  
-Phone: +49 15204564161  
-LinkedIn: [Zhitao Xu](https://www.linkedin.com/in/zhitao-xu-750b45300/)  
-GitHub: [HerrXu01](https://github.com/HerrXu01)
+
+<p align="center">
+  <a href="mailto:ge26hax@mytum.de"><img src="https://img.icons8.com/color/48/000000/email.png" alt="Email"></a>
+  <a href="tel:+4915204564161"><img src="https://img.icons8.com/color/48/000000/phone.png" alt="Phone"></a>
+  <a href="https://www.linkedin.com/in/zhitao-xu-750b45300/"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn"></a>
+  <a href="https://github.com/HerrXu01"><img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub"></a>
+</p>
 
 ## Areas of Interest
 
