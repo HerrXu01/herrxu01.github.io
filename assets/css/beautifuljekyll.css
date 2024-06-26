@@ -1134,7 +1134,7 @@ pre {
   margin: 0 15px;
   transition: transform 0.3s ease;
   text-decoration: none;
-  color: inherit;
+  color: black;
 }
 
 .icon-container a:hover {
@@ -1146,8 +1146,9 @@ pre {
   height: 40px;
 }
 
-.icon-container div {
-  margin-top: 5px;
+.icon-container span {
+  display: block;
   font-size: 14px;
   font-weight: bold;
+  margin-top: 5px;
 }
