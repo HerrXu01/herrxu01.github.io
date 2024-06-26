@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About Me
+class: resume-page
 ---
 
 # Zhitao Xu

@@ -1206,3 +1206,41 @@ ul li:before {
   color: #007BFF;
   font-weight: bold;
 }
+
+/* 仅在简历页面添加蓝点 */
+.resume-page ul, .resume-page ol {
+  list-style: none; /* 去除所有列表项的默认样式 */
+  padding: 0; /* 移除默认内边距 */
+}
+
+.resume-page ul li::before, .resume-page ol li::before {
+  content: '•';
+  color: #007BFF; /* 设置蓝点的颜色 */
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+/* 其他页面不显示蓝点 */
+ul, ol {
+  list-style: none; /* 去除所有列表项的默认样式 */
+  padding: 0; /* 移除默认内边距 */
+}
+
+ul li::before, ol li::before {
+  content: ''; /* 去除列表项前的内容 */
+}
+
+.navbar-nav > li::before {
+  content: ''; /* 去除导航栏项前的内容 */
+}
+
+footer .social-network-links a::before {
+  content: ''; /* 去除页脚社交链接前的内容 */
+}
+
+/* 确保导航栏项和页脚社交链接不显示小蓝点 */
+.navbar-nav > li, footer .social-network-links a {
+  list-style: none; /* 确保导航栏和页脚社交链接没有默认样式 */
+}
