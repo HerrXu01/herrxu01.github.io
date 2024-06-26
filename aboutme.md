@@ -5,19 +5,22 @@ title: About Me
 
 # Zhitao Xu
 
-
-<div style="text-align: center;">
-  <a href="mailto:ge26hax@mytum.de" style="margin: 0 15px;">
-    <img src="https://img.icons8.com/color/48/000000/email.png" alt="Email" style="width: 40px; height: 40px;">
+<div class="icon-container">
+  <a href="mailto:ge26hax@mytum.de">
+    <img src="https://img.icons8.com/color/48/000000/email.png" alt="Email">
+    <div>Email</div>
   </a>
-  <a href="tel:+4915204564161" style="margin: 0 15px;">
-    <img src="https://img.icons8.com/color/48/000000/phone.png" alt="Phone" style="width: 40px; height: 40px;">
+  <a href="tel:+4915204564161">
+    <img src="https://img.icons8.com/color/48/000000/phone.png" alt="Phone">
+    <div>Phone</div>
   </a>
-  <a href="https://www.linkedin.com/in/zhitao-xu-750b45300/" style="margin: 0 15px;">
-    <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" style="width: 40px; height: 40px;">
+  <a href="https://www.linkedin.com/in/zhitao-xu-750b45300/">
+    <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn">
+    <div>LinkedIn</div>
   </a>
-  <a href="https://github.com/HerrXu01" style="margin: 0 15px;">
-    <img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub" style="width: 40px; height: 40px;">
+  <a href="https://github.com/HerrXu01">
+    <img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub">
+    <div>GitHub</div>
   </a>
 </div>
 
