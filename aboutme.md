@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About Me
-subtitle: My journey in Machine Learning
 class: resume-page
 ---
 
@@ -39,13 +38,17 @@ class: resume-page
 
 ## Education
 
-### Master’s in Robotics, Cognition, Intelligence
-**Technical University of Munich**  
-*2021 - Present*
+<div style="text-align: center; margin-bottom: 40px;">
+  <h3 style="font-size: 1.75rem; font-weight: bold; margin: 10px 0;">Master’s in Robotics, Cognition, Intelligence</h3>
+  <p style="font-size: 1.2rem; margin: 5px 0; color: #555;">Technical University of Munich</p>
+  <p style="font-size: 1.2rem; margin: 5px 0; color: #555;">2021 - Present</p>
+</div>
 
-### Bachelor’s in Energy and Power Engineering
-**Jilin University**  
-*2016 - 2020*
+<div style="text-align: center; margin-bottom: 40px;">
+  <h3 style="font-size: 1.75rem; font-weight: bold; margin: 10px 0;">Bachelor’s in Energy and Power Engineering</h3>
+  <p style="font-size: 1.2rem; margin: 5px 0; color: #555;">Jilin University</p>
+  <p style="font-size: 1.2rem; margin: 5px 0; color: #555;">2016 - 2020</p>
+</div>
 
 ---
 
