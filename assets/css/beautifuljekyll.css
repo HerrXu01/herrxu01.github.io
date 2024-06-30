@@ -1200,7 +1200,7 @@ ul li {
   position: relative;
 }
 
-ul li::before {
+ul li:before {
   content: "•";
   position: absolute;
   left: 0;
@@ -1224,12 +1224,12 @@ ul li::before {
 }
 
 /* 其他页面不显示蓝点 */
-:not(.resume-page) ul, :not(.resume-page) ol {
+ul, ol {
   list-style: none; /* 去除所有列表项的默认样式 */
   padding: 0; /* 移除默认内边距 */
 }
 
-:not(.resume-page) ul li::before, :not(.resume-page) ol li::before {
+ul li::before, ol li::before {
   content: ''; /* 去除列表项前的内容 */
 }
 
