@@ -1124,6 +1124,7 @@ pre {
   }
 }
 
+/* 图标样式 */
 .icon-container {
   text-align: center;
   margin: 20px 0;
@@ -1199,7 +1200,7 @@ ul li {
   position: relative;
 }
 
-ul li:before {
+ul li::before {
   content: "•";
   position: absolute;
   left: 0;
@@ -1223,12 +1224,12 @@ ul li:before {
 }
 
 /* 其他页面不显示蓝点 */
-ul, ol {
+ul:not(.resume-page ul), ol:not(.resume-page ol) {
   list-style: none; /* 去除所有列表项的默认样式 */
   padding: 0; /* 移除默认内边距 */
 }
 
-ul li::before, ol li::before {
+ul:not(.resume-page ul) li::before, ol:not(.resume-page ol) li::before {
   content: ''; /* 去除列表项前的内容 */
 }
 

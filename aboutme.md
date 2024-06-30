@@ -1,8 +1,9 @@
 ---
 layout: page
 title: About Me
-class: resume-page
 ---
+
+<div class="resume-page">
 
 # Zhitao Xu
 
@@ -94,3 +95,5 @@ class: resume-page
 - **Chinese:** Native Speaker
 - **English:** Proficient (IELTS: 6.5)
 - **German:** Goethe Certificate B2
+
+</div>
