@@ -7,7 +7,7 @@ class: resume-page
 # Zhitao Xu
 
 <div class="icon-container">
-  <a href="mailto:ge26hax@mytum.de">
+  <a href="mailto:xuzt.work@gmail.com">
     <img src="https://img.icons8.com/color/48/000000/email.png" alt="Email">
     <span>Email</span>
   </a>
