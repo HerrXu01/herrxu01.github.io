@@ -1224,12 +1224,12 @@ ul li::before {
 }
 
 /* 其他页面不显示蓝点 */
-ul:not(.resume-page ul), ol:not(.resume-page ol) {
+:not(.resume-page) ul, :not(.resume-page) ol {
   list-style: none; /* 去除所有列表项的默认样式 */
   padding: 0; /* 移除默认内边距 */
 }
 
-ul:not(.resume-page ul) li::before, ol:not(.resume-page ol) li::before {
+:not(.resume-page) ul li::before, :not(.resume-page) ol li::before {
   content: ''; /* 去除列表项前的内容 */
 }
 

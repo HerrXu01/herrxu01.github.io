@@ -26,16 +26,12 @@ title: About Me
   </a>
 </div>
 
----
-
 ## Areas of Interest
 
 - **Machine Learning for Graphs**
 - **Machine Learning for Sequential Data**
 - **Semi-supervised Machine Learning**
 - **Large-Scale Machine Learning**
-
----
 
 ## Education
 
@@ -46,8 +42,6 @@ title: About Me
 ### Bachelor’s in Energy and Power Engineering
 **Jilin University**  
 *2016 - 2020*
-
----
 
 ## Projects
 
@@ -74,21 +68,15 @@ title: About Me
 - **Topic:** Numerical Calculation of Zero-Dimensional Thermodynamic Model of EA888 Gasoline Engine
 - Modeled the working process of the engine, and predicted real-time state parameters of the cylinders.
 
----
-
 ## Work Experience
 
 ### Tutor for Machine Learning (IN2064) 23/24WS
 - Assisted with grading end-term examinations and retakes, ensuring fair evaluation and adherence to academic standards.
 
----
-
 ## Skills
 
 - **ML Skills:** PyTorch, NumPy, NetworkX, Matplotlib, SciPy, Pandas, Scikit-Learn
 - **Technical Skills:** Git, Weights & Biases, LaTeX
-
----
 
 ## Languages
 
