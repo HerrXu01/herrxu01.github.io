@@ -3,8 +3,6 @@ layout: page
 title: About Me
 ---
 
-<div class="resume-page">
-
 # Zhitao Xu
 
 <div class="icon-container">
@@ -84,4 +82,3 @@ title: About Me
 - **English:** Proficient (IELTS: 6.5)
 - **German:** Goethe Certificate B2
 
-</div>
