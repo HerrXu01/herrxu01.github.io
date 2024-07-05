@@ -21,7 +21,7 @@ author: Zhitao Xu
 
 navbar-links:
   About Me: "aboutme"
-   Notes: "notes"
+  Notes: "notes"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
