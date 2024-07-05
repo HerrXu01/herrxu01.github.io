@@ -30,6 +30,12 @@
           </li>
         {%- endif -%}
       {%- endfor -%}
+
+      <!-- Add link to Notes page -->
+      <li class="nav-item">
+        <a class="nav-link" href="{{ '/notes' | relative_url }}">Notes</a>
+      </li>
+
       {% if site.post_search %}
         <li class="nav-item">
           <a class="nav-link" id="nav-search-link" href="#" title="Search">
