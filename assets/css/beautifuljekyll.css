@@ -1289,3 +1289,12 @@ footer .social-network-links a::before {
   border-radius: 15px; /* Make the corners rounded */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for 3D effect */
 }
+
+/* Subtitle Styling */
+.intro-header p.subtitle {
+  font-size: 1.25rem; /* 调整字体大小 */
+  text-align: center; /* 使文字居中 */
+  margin-top: 10px; /* 调整副标题和主标题之间的距离 */
+  color: #666; /* 设置字体颜色，可以根据需要修改 */
+  font-style: italic; /* 可选：让副标题为斜体 */
+}
