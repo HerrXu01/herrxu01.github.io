@@ -29,10 +29,10 @@ class: resume-page
 
 ## Areas of Interest
 
-- **Machine Learning for Graphs**
 - **Machine Learning for Sequential Data**
-- **Semi-supervised Machine Learning**
 - **Large-Scale Machine Learning**
+- **Machine Learning Application**
+- **Machine Learning for Graphs**
 
 ---
 

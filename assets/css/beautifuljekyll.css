@@ -1245,3 +1245,51 @@ footer .social-network-links a::before {
 .navbar-nav > li, footer .social-network-links a {
   list-style: none; /* 确保导航栏和页脚社交链接没有默认样式 */
 }
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content {
+  max-width: 800px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+  border-radius: 10px;
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.hero-buttons .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  color: #fff;
+  background-color: #007BFF;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.hero-buttons .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Content Section */
+.content {
+  padding: 20px;
+}

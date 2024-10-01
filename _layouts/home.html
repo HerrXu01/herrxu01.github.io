@@ -2,6 +2,19 @@
 layout: page
 ---
 
+<div class="hero-section" style="background-image: url('/assets/img/welcome.png');">
+  <div class="hero-content">
+    <h1>Welcome to Zhitao Xu's Personal Page</h1>
+    <p>Exploring AI, Machine Learning, and Prosthetic Research</p>
+    <div class="hero-buttons">
+      <a class="btn" href="/aboutme">About Me</a>
+      <a class="btn" href="/ai-notes">AI Notes</a>
+      <a class="btn" href="/research">Research</a>
+      <a class="btn" href="/projects">Projects</a>
+    </div>
+  </div>
+</div>
+
 {{ content }}
 
 {% assign posts = paginator.posts | default: site.posts %}
