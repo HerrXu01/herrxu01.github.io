@@ -1284,7 +1284,7 @@ footer .social-network-links a::before {
 }
 
 .profile-photo-container img {
-  width: 200px; /* 调整照片尺寸 */
+  width: 500px; /* 调整照片尺寸 */
   height: auto;
   border-radius: 10px; /* 减小圆角半径 */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加阴影效果 */
