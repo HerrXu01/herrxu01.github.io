@@ -2,6 +2,22 @@
 layout: page
 ---
 
+<div class="summary-section">
+  <div class="summary-card">
+    <h2>AI & Machine Learning</h2>
+    <p>Focused on applying deep learning methods to EMG signal processing, improving prosthetic control, and exploring innovative neural network architectures.</p>
+  </div>
+  <div class="summary-card">
+    <h2>Prosthetic Research</h2>
+    <p>Investigating EMG-based prosthetic control systems, aiming to enhance robustness, adaptability, and user experience for individuals with limb loss.</p>
+  </div>
+  <div class="summary-card">
+    <h2>Projects & Interests</h2>
+    <p>Engaged in various projects related to human-computer interaction, machine learning model optimization, and real-world applications of AI technologies.</p>
+  </div>
+</div>
+
+{% comment %}
 {{ content }}
 
 {% assign posts = paginator.posts | default: site.posts %}
@@ -99,6 +115,7 @@ layout: page
   </li>
   {% endfor %}
 </ul>
+{% endcomment %}
 
 {% if paginator.total_pages > 1 %}
 <ul class="pagination main-pager">
