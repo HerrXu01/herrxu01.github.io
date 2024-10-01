@@ -1280,12 +1280,12 @@ footer .social-network-links a::before {
 .profile-photo-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px; /* Adjust the spacing between the photo and the title */
+  margin-bottom: 20px; /* Adjust spacing between photo and title */
 }
 
 .profile-photo-container img {
-  width: 150px; /* Adjust the size of the photo */
+  width: 150px; /* Adjust photo size */
   height: auto;
   border-radius: 15px; /* Make the corners rounded */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for 3D effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for 3D effect */
 }
