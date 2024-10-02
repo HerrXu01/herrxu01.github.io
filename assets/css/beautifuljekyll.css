@@ -1278,7 +1278,7 @@ footer .social-network-links a::before {
 
 /* 调整顶部容器的间距 */
 .intro-header {
-  padding-top: 50px; /* 为顶部添加内边距，调整照片与顶部的距离 */
+  padding-top: 10px; /* 为顶部添加内边距，调整照片与顶部的距离 */
 }
 
 /* Profile Photo */
