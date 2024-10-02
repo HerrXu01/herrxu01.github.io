@@ -1276,11 +1276,6 @@ footer .social-network-links a::before {
   line-height: 1.6;
 }
 
-/* 调整顶部容器的间距 */
-.intro-header {
-  padding-top: 20px !important; /* 使用 !important 关键字以覆盖其他样式 */
-}
-
 /* Profile Photo */
 .profile-photo-container {
   display: flex;
