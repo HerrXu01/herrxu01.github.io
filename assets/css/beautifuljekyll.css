@@ -1283,6 +1283,11 @@ footer .social-network-links a::before {
   margin-bottom: 20px; /* 调整图片和标题之间的间距 */
 }
 
+/* 调整顶部容器的间距 */
+.intro-header {
+  margin-top: 20px; /* 减少顶部的空白距离 */
+}
+
 .profile-photo-container img {
   width: 500px; /* 调整照片尺寸 */
   height: auto;
