@@ -1276,16 +1276,16 @@ footer .social-network-links a::before {
   line-height: 1.6;
 }
 
+/* 调整顶部容器的间距 */
+.intro-header {
+  padding-top: 50px; /* 为顶部添加内边距，调整照片与顶部的距离 */
+}
+
 /* Profile Photo */
 .profile-photo-container {
   display: flex;
   justify-content: center;
   margin-bottom: 20px; /* 调整图片和标题之间的间距 */
-}
-
-/* 调整顶部容器的间距 */
-.intro-header {
-  padding-top: 10px; /* 为顶部添加内边距，调整照片与顶部的距离 */
 }
 
 .profile-photo-container img {
