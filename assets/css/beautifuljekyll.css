@@ -1313,5 +1313,4 @@ footer .social-network-links a::before {
   margin-left: 20px; /* 根据需要调整左侧边距 */
   margin-right: 20px; /* 保证右边距不会贴到网页最右边 */
   max-width: 800px; /* 控制文字的宽度，使其不延伸得太宽 */
-  line-height: 1.6; /* 调整行高，使文字更易阅读 */
 }
