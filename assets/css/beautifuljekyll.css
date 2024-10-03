@@ -1316,3 +1316,10 @@ footer .social-network-links a::before {
   font-size: 22px; /* 调整字体大小 */
   line-height: 1.6; /* 调整行高，使文字更易阅读 */
 }
+
+.intro-summary-text {
+  font-size: 1.2rem; /* 调整文字大小 */
+  text-align: center; /* 文字居中 */
+  margin-bottom: 20px; /* 与下方 summary cards 的距离 */
+  color: #333; /* 设置文字颜色 */
+}
