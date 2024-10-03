@@ -1310,7 +1310,7 @@ footer .social-network-links a::before {
 
 .intro-text {
   text-align: left;
-  font-size: 1.2rem; /* 调整字体大小 */
+  font-size: 1.5rem; /* 调整字体大小 */
   line-height: 1.6; /* 调整行高 */
   margin-left: 20px; /* 根据需要调整左侧边距 */
   margin-right: 20px; /* 保证右边距不会贴到网页最右边 */
