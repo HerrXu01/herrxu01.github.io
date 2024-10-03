@@ -1298,3 +1298,12 @@ footer .social-network-links a::before {
   color: #666; /* 设置字体颜色 */
   font-style: italic; /* 可选：设置为斜体 */
 }
+
+/* 自我介绍部分样式 */
+.self-introduction {
+  font-size: 1.2rem; /* 调整字体大小 */
+  line-height: 1.6; /* 调整行高 */
+  margin-top: 20px; /* 与副标题保持一些距离 */
+  text-align: center; /* 居中对齐 */
+  color: #555; /* 调整文字颜色 */
+}
