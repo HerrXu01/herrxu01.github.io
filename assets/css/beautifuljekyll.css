@@ -1307,3 +1307,10 @@ footer .social-network-links a::before {
   text-align: center; /* 居中对齐 */
   color: #555; /* 调整文字颜色 */
 }
+
+.intro-text {
+  text-align: left;
+  margin-left: 20px; /* 根据需要调整左侧边距 */
+  margin-right: 20px; /* 保证右边距不会贴到网页最右边 */
+  max-width: 800px; /* 控制文字的宽度，使其不延伸得太宽 */
+}
