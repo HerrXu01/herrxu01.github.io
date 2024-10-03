@@ -1323,3 +1323,20 @@ footer .social-network-links a::before {
   margin-bottom: 20px; /* 与下方 summary cards 的距离 */
   color: #333; /* 设置文字颜色 */
 }
+
+/* 为 .summary-link 设置样式 */
+.summary-link {
+  display: inline-block; /* 使链接看起来像一个按钮 */
+  margin-top: 15px; /* 调整链接与内容的间距 */
+  padding: 10px 20px; /* 添加内边距，增加点击区域 */
+  background-color: #007BFF; /* 按钮背景色 */
+  color: white; /* 按钮文字颜色 */
+  text-decoration: none; /* 移除链接的下划线 */
+  border-radius: 5px; /* 圆角边框 */
+  font-weight: bold; /* 字体加粗 */
+  transition: background-color 0.3s ease; /* 添加平滑过渡效果 */
+}
+
+.summary-link:hover {
+  background-color: #0056b3; /* 悬停时改变背景色 */
+}
