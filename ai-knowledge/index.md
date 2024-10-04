@@ -3,8 +3,6 @@ layout: page
 title: AI Knowledge
 ---
 
-<h1>AI Knowledge</h1>
-
 <div class="course-cards">
   <!-- Machine Learning Card -->
   <div class="course-card">
