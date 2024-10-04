@@ -13,8 +13,9 @@ title: Machine Learning
 </div>
 
 <div id="post-container">
-  {% assign posts = site.categories.machine-learning | sort: 'date' | reverse %}
-  {% if posts %}
+  {% assign posts = site.categories.machine-learning | default: "" %}
+  {% if posts != "" %}
+    {% assign posts = posts | sort: 'date' | reverse %}
     {% for post in posts %}
     <div class="post" data-date="{{ post.date }}" data-order="{{ post.learning_order }}">
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
