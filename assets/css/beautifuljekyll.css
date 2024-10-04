@@ -1340,3 +1340,52 @@ footer .social-network-links a::before {
 .summary-link:hover {
   background-color: #0056b3; /* 悬停时改变背景色 */
 }
+
+/* Card Container Styling */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Individual Card Styling */
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+}
+
+.card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card li {
+  margin: 5px 0;
+}
+
+/* Button Styling */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
