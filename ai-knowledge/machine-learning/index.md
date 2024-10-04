@@ -14,12 +14,16 @@ title: Machine Learning
 
 <div id="post-container">
   {% assign posts = site.categories.machine-learning | sort: 'date' | reverse %}
-  {% for post in posts %}
-  <div class="post" data-date="{{ post.date }}" data-order="{{ post.learning_order }}">
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    <p>{{ post.date | date: "%B %d, %Y" }}</p>
-  </div>
-  {% endfor %}
+  {% if posts %}
+    {% for post in posts %}
+    <div class="post" data-date="{{ post.date }}" data-order="{{ post.learning_order }}">
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p>{{ post.date | date: "%B %d, %Y" }}</p>
+    </div>
+    {% endfor %}
+  {% else %}
+    <p>No posts available in this category.</p>
+  {% endif %}
 </div>
 
 <script>
