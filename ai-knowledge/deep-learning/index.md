@@ -6,11 +6,11 @@ title: Deep Learning
 <div class="note-cards">
   {% assign posts = site.categories.deep-learning %}
   {% for post in posts %}
-  <div class="note-card">
-    <a href="{{ post.url }}">
+  <a href="{{ post.url }}" class="note-card">
+    <div class="note-content">
       <h3>{{ post.title }}</h3>
       <span class="note-date">{{ post.date | date: "%B %d, %Y" }}</span>
-    </a>
-  </div>
+    </div>
+  </a>
   {% endfor %}
 </div>
