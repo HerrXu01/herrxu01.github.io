@@ -146,6 +146,7 @@ layout: page
 </ul>
 {% endcomment %}
 
+{%- comment -%}
 {% if paginator.total_pages > 1 %}
 <ul class="pagination main-pager">
   {% if paginator.previous_page %}
@@ -166,3 +167,4 @@ layout: page
   {% endif %}
 </ul>
 {% endif %}
+{%- endcomment -%}
