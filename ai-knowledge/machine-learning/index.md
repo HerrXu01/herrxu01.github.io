@@ -7,8 +7,10 @@ title: Machine Learning
   {% assign posts = site.categories.machine-learning %}
   {% for post in posts %}
   <div class="note-card">
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    <span class="note-date">{{ post.date | date: "%B %d, %Y" }}</span>
+    <a href="{{ post.url }}">
+      <h3>{{ post.title }}</h3>
+      <span class="note-date">{{ post.date | date: "%B %d, %Y" }}</span>
+    </a>
   </div>
   {% endfor %}
 </div>

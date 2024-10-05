@@ -1367,40 +1367,39 @@ footer .social-network-links a::before {
   color: #0056b3;
 }
 
-.note-cards {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .note-card {
   background: #f5f5f5;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
   margin: 10px 0;
-  width: 90%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  width: 80%;
+  text-align: left;
+  transition: background-color 0.3s; /* 添加过渡效果 */
+}
+
+.note-card a {
+  display: block; /* 让链接填充整个卡片 */
+  color: inherit; /* 使用父元素的颜色 */
+  text-decoration: none; /* 移除链接下划线 */
+}
+
+.note-card:hover {
+  background-color: #007BFF; /* 鼠标悬停时改变背景颜色 */
 }
 
 .note-card h3 {
   margin: 0;
   font-size: 1.2rem;
-}
-
-.note-card h3 a {
-  text-decoration: none;
-  color: #555;
-}
-
-.note-card h3 a:hover {
-  text-decoration: underline;
+  color: #555; /* 设置标题颜色为黑色 */
 }
 
 .note-card .note-date {
   font-size: 0.9rem;
-  color: #888; /* 深灰色，用于日期 */
+  color: #888; /* 日期颜色 */
 }
 
+.note-card:hover h3,
+.note-card:hover .note-date {
+  color: #fff; /* 鼠标悬停时文字变为白色 */
+}
