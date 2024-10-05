@@ -1359,9 +1359,10 @@ footer .social-network-links a::before {
 
 .course-card h2 a {
   text-decoration: none;
-  color: #007BFF;
+  /* color: #007BFF; */
 }
 
 .course-card h2 a:hover {
   text-decoration: underline;
+  background-color: #0056b3;
 }
