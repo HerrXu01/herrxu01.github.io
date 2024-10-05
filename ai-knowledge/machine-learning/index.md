@@ -3,11 +3,12 @@ layout: page
 title: Machine Learning
 ---
 
-<ul>
+<div class="note-cards">
   {% assign posts = site.categories.machine-learning %}
   {% for post in posts %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}
-  </li>
+  <div class="note-card">
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <span class="note-date">{{ post.date | date: "%B %d, %Y" }}</span>
+  </div>
   {% endfor %}
-</ul>
+</div>
