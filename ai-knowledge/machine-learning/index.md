@@ -3,8 +3,6 @@ layout: page
 title: Machine Learning
 ---
 
-<h1>Machine Learning Notes</h1>
-
 <ul>
   {% assign posts = site.categories.machine-learning %}
   {% for post in posts %}

@@ -3,10 +3,9 @@ layout: page
 title: Deep Learning
 ---
 
-<h1>Deep Learning Notes</h1>
-
 <ul>
-  {% for post in site.ai-knowledge.deep-learning %}
+  {% assign posts = site.categories.deep-learning %}
+  {% for post in posts %}
   <li>
     <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}
   </li>
