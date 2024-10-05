@@ -1367,6 +1367,13 @@ footer .social-network-links a::before {
   color: #0056b3;
 }
 
+/* Container for centering cards */
+.note-cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* Card link styling */
 .note-card {
   display: block;
@@ -1397,7 +1404,7 @@ footer .social-network-links a::before {
 .note-card h3 {
   margin: 0;
   font-size: 1.2rem;
-  color: #000;
+  color: #333;
 }
 
 /* Note date styling */
@@ -1411,3 +1418,4 @@ footer .social-network-links a::before {
 .note-card:hover .note-date {
   color: #fff;
 }
+

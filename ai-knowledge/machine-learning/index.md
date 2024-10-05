@@ -3,9 +3,8 @@ layout: page
 title: Machine Learning
 ---
 
-<div class="note-cards">
-  {% assign posts = site.categories.machine-learning %}
-  {% for post in posts %}
+<div class="note-cards-container">
+  {% for post in site.categories.machine-learning %}
   <a href="{{ post.url }}" class="note-card">
     <div class="note-content">
       <h3>{{ post.title }}</h3>
