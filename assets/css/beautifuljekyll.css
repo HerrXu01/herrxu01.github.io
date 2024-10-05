@@ -1419,3 +1419,6 @@ footer .social-network-links a::before {
   color: #fff;
 }
 
+.note-card:hover {
+  text-decoration: none; /* Ensure underline is removed on hover */
+}
