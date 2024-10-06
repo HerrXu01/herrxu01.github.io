@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Paper Reading<br>Attention is All You Need"
+title: "Paper Reading Attention"
 date: 2024-10-06
 categories: large-models
 tags: [paper, attention]
 ---
 
-# TODO
+# Attention is All You Need
