@@ -1315,13 +1315,14 @@ footer .social-network-links a::before {
   color: #555; /* 调整文字颜色 */
 }
 
+/* Intro Text */
 .intro-text {
-  text-align: left;
-  margin-left: 20px; /* 根据需要调整左侧边距 */
-  margin-right: 20px; /* 保证右边距不会贴到网页最右边 */
-  max-width: 800px; /* 控制文字的宽度，使其不延伸得太宽 */
-  font-size: 22px; /* 调整字体大小 */
-  line-height: 1.6; /* 调整行高，使文字更易阅读 */
+  text-align: left; /* 保持文本左对齐 */
+  max-width: 1200px; /* 与 .summary-card 的 max-width 保持一致 */
+  margin: 0 auto; /* 让整个容器居中 */
+  padding: 0 20px; /* 在小屏幕上增加一些内边距，防止文本贴边 */
+  font-size: 22px; 
+  line-height: 1.6; 
 }
 
 .intro-summary-text {
