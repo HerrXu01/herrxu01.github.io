@@ -4,10 +4,10 @@ layout: base
 
 {% include header.html type="page" %}
 
-<!-- 调整宽度为更窄的比例 -->
-<div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 {% endif %}">
+<!-- 调整宽度为适中比例，稍微比之前宽一些 -->
+<div class="{% if page.full-width %} col {% else %} col-xl-10 offset-xl-1 col-lg-11 offset-lg-0 col-md-12 {% endif %}">
   <div class="row">
-    <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">
+    <div class="{% if page.full-width %} col {% else %} col-xl-10 offset-xl-1 col-lg-11 offset-lg-0 {% endif %}">
       
       {% if page.before-content %}
         <div class="before-content">
