@@ -1257,9 +1257,9 @@ footer .social-network-links a::before {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px 60px; /* 进一步扩大左右内边距 */
+  padding: 50px 80px; /* 进一步扩大左右内边距 */
   background-color: #f5f5f5;
-  max-width: 1800px; /* 将最大宽度从 1600px 调整为 1800px */
+  max-width: 2000px; /* 扩展到 2000px，更宽的最大宽度 */
   width: 100%;
   margin: 0 auto; /* 保持居中 */
 }
@@ -1269,16 +1269,16 @@ footer .social-network-links a::before {
   background: white;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 1400px; /* 将卡片最大宽度从 1200px 增加到 1400px */
-  width: 95%; /* 将卡片宽度从 90% 增加到 95% */
+  max-width: 1800px; /* 将卡片最大宽度增加到 1800px */
+  width: 98%; /* 卡片几乎占满父容器 */
   margin: 20px;
-  padding: 30px; /* 保持卡片内边距不变 */
+  padding: 40px; /* 适当增加内边距，保持卡片内容的舒适度 */
   text-align: center;
 }
 
 /* 卡片标题 */
 .summary-card h2 {
-  font-size: 2em; 
+  font-size: 2.2em; /* 略微放大标题字体，适应更宽的卡片 */
   margin-bottom: 20px;
 }
 
@@ -1324,9 +1324,9 @@ footer .social-network-links a::before {
 /* Intro Text */
 .intro-text {
   text-align: left;
-  max-width: 1400px; /* 同步调整 .intro-text 最大宽度 */
+  max-width: 1800px; /* 与 .summary-card 的 max-width 同步 */
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 40px; /* 进一步增加内边距 */
   font-size: 22px; 
   line-height: 1.6; 
 }
