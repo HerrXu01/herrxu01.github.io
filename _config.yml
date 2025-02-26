@@ -25,6 +25,7 @@ navbar-links:
   Research: "research"
   Projects: "projects"
   Papers Reading: "papers-reading"
+  Misc: "misc"
   #Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
   #  - Learn markdown: "https://www.markdowntutorial.com/"
