@@ -6,6 +6,3 @@ categories: papers-reading
 tags: [papers, wav2vec]
 ---
 
-# Wav2Vec
-
-text
