@@ -1214,7 +1214,7 @@ ul li:before {
   padding: 0; /* 移除默认内边距 */
 }
 
-.resume-page ul li::before, .resume-page ol li::before {
+.resume-page ul li::before {
   content: '•';
   color: #007BFF; /* 设置蓝点的颜色 */
   font-weight: bold;
@@ -1223,14 +1223,19 @@ ul li:before {
   margin-left: -1em;
 }
 
-/* 其他页面不显示蓝点 */
-ul, ol {
-  list-style: none; /* 去除所有列表项的默认样式 */
-  padding: 0; /* 移除默认内边距 */
+/* 确保其他页面的列表恢复正常 */
+.blog-post ul {
+  list-style-type: disc !important;
+  padding-left: 20px !important;
 }
 
-ul li::before, ol li::before {
-  content: ''; /* 去除列表项前的内容 */
+.blog-post ol {
+  list-style-type: decimal !important;
+  padding-left: 20px !important;
+}
+
+.blog-post ul li, .blog-post ol li {
+  display: list-item !important;
 }
 
 .navbar-nav > li::before {
