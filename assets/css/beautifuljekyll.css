@@ -986,7 +986,7 @@ pre {
 }
 
 .blog-post .caption {
-  text-align: center;
+  text-align: left;
   font-size: 0.875rem;
   padding: 0.625rem;
   font-style: italic;
@@ -1178,10 +1178,6 @@ h2 {
 h3 {
   font-size: 1.5rem;
   margin-top: 30px;
-}
-
-.blog-post h1, .blog-post h2, .blog-post h3 {
-  text-align: left !important;
 }
 
 /* 分隔线样式 */
