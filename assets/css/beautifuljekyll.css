@@ -1200,21 +1200,6 @@ ul li {
   position: relative;
 }
 
-/* 仅在简历页面添加蓝点 */
-.resume-page ul, .resume-page ol {
-  list-style: none; /* 去除所有列表项的默认样式 */
-  padding: 0; /* 移除默认内边距 */
-}
-
-.resume-page ul li::before {
-  content: '•';
-  color: #007BFF; /* 设置蓝点的颜色 */
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-}
-
 /* 确保其他页面的列表恢复正常 */
 .blog-post ul {
   list-style-type: disc !important;
