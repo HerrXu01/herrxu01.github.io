@@ -26,9 +26,11 @@ Most audio signals in nature, including speech and music, have higher energy in 
 * **Characteristics of Recording Equipment and Microphones:** The sensors in recording devices may exhibit significant attenuation in the high-frequency range, causing the recorded audio signal to have lower energy in the high-frequency region.
 
 Since the high-frequency components have lower energy, audio processing tasks (such as speech recognition or music analysis) may struggle to capture features effectively due to the weak high-frequency signals. To address this, we often enhance the high-frequency components before feature extraction, typically using **a high-pass filter** for pre-emphasis:
+
 $$
 y[n] = x[n] - \alpha x[n-1]
 $$,
+
 where \\(x[n]\\) is the raw audio signal, \\(y[n]\\) is the signal after filtering, and \\(\alpha\\) is the filter coefficient, usually lying in 0.95~0.97.
 
 If the signal changes rapidly (i.e., contains more high-frequency components), the difference between \\( x[n] \\) and \\( x[n-1] \\) is large, which means the high-frequency components are enhanced.  
