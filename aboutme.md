@@ -58,28 +58,67 @@ class: resume-page
 
 ## Projects
 
-### Practical Course: Large-Scale Machine Learning
-[View Project](https://github.com/HerrXu01/Practical_Course_Long_Range_Interactions_in_Crystal_Structures)
-- **Topic:** Long-Range Interactions in Crystal Structures
-- Investigated the capabilities of SOTA models to capture long-range interatomic interactions within crystal structures.
-- Explored if the physics-inspired biases on the target (energies) would help lower the prediction error.
+<div style="margin-bottom: 40px;">
+  <h3 style="text-align: center; font-size: 1.75rem; font-weight: bold;">Practical Course: Large-Scale Machine Learning</h3>
+  <div style="text-align: center; margin-bottom: 10px;">
+    <a href="https://github.com/HerrXu01/Practical_Course_Long_Range_Interactions_in_Crystal_Structures" 
+       style="font-size: 1.2rem; font-weight: bold; color: #007BFF; text-decoration: none;">
+       🔗 View Project
+    </a>
+  </div>
+  <ul style="font-size: 1.2rem; padding-left: 20px;">
+    <li><strong>Topic:</strong> Long-Range Interactions in Crystal Structures</li>
+    <li>Investigated the capabilities of SOTA models to capture long-range interatomic interactions within crystal structures.</li>
+    <li>Explored if the physics-inspired biases on the target (energies) would help lower the prediction error.</li>
+  </ul>
+</div>
 
-### Practical Course: Machine Learning in Crowd Modeling and Simulation
-[View Project](https://github.com/HerrXu01/Master_Praktikum__Machine_Learning_in_Crowd_Modeling_and_Simulation)
-- Implemented approaches to model crowd dynamics.
-- Studied the simulation software named Vadere.
-- Applied machine learning methods for the analysis of dynamical systems, covering manifold learning and bifurcation analysis.
+<div style="margin-bottom: 40px;">
+  <h3 style="text-align: center; font-size: 1.75rem; font-weight: bold;">Practical Course: Machine Learning in Crowd Modeling and Simulation</h3>
+  <div style="text-align: center; margin-bottom: 10px;">
+    <a href="https://github.com/HerrXu01/Master_Praktikum__Machine_Learning_in_Crowd_Modeling_and_Simulation" 
+       style="font-size: 1.2rem; font-weight: bold; color: #007BFF; text-decoration: none;">
+       🔗 View Project
+    </a>
+  </div>
+  <ul style="font-size: 1.2rem; padding-left: 20px;">
+    <li>Implemented approaches to model crowd dynamics.</li>
+    <li>Studied the simulation software named Vadere.</li>
+    <li>Applied machine learning methods for the analysis of dynamical systems, covering manifold learning and bifurcation analysis.</li>
+  </ul>
+</div>
 
-### Code Assignments of Machine Learning for Graphs and Sequential Data
-[View Project](https://github.com/HerrXu01/MLGS_projects)
-- Applied machine learning techniques on graphs and sequential data including Hidden Markov Models, Word2Vec, Temporal Point Processes, Spectral Clustering, and Graph Neural Networks.
+<div style="margin-bottom: 40px;">
+  <h3 style="text-align: center; font-size: 1.75rem; font-weight: bold;">Code Assignments of Machine Learning for Graphs and Sequential Data</h3>
+  <div style="text-align: center; margin-bottom: 10px;">
+    <a href="https://github.com/HerrXu01/MLGS_projects" 
+       style="font-size: 1.2rem; font-weight: bold; color: #007BFF; text-decoration: none;">
+       🔗 View Project
+    </a>
+  </div>
+  <ul style="font-size: 1.2rem; padding-left: 20px;">
+    <li>Applied machine learning techniques on graphs and sequential data including Hidden Markov Models, Word2Vec, Temporal Point Processes, Spectral Clustering, and Graph Neural Networks.</li>
+  </ul>
+</div>
 
-### Toy Projects of NetworkX
-- Learned NetworkX through some toy projects. For details, click [DeepWalk](https://github.com/HerrXu01/Wikipedia_Graph_Embedding_Visualization), [Graph Data Mining](https://github.com/HerrXu01/Munich_Ubhan_Graph_Data_Mining), and [PageRank](https://github.com/HerrXu01/character_nodes_importance).
+<div style="margin-bottom: 40px;">
+  <h3 style="text-align: center; font-size: 1.75rem; font-weight: bold;">Toy Projects of NetworkX</h3>
+  <ul style="font-size: 1.2rem; padding-left: 20px;">
+    <li>Learned NetworkX through some toy projects. For details, click 
+      <a href="https://github.com/HerrXu01/Wikipedia_Graph_Embedding_Visualization" style="color: #007BFF; text-decoration: none;">DeepWalk</a>, 
+      <a href="https://github.com/HerrXu01/Munich_Ubhan_Graph_Data_Mining" style="color: #007BFF; text-decoration: none;">Graph Data Mining</a>, and 
+      <a href="https://github.com/HerrXu01/character_nodes_importance" style="color: #007BFF; text-decoration: none;">PageRank</a>.
+    </li>
+  </ul>
+</div>
 
-### Bachelor Thesis
-- **Topic:** Numerical Calculation of Zero-Dimensional Thermodynamic Model of EA888 Gasoline Engine
-- Modeled the working process of the engine, and predicted real-time state parameters of the cylinders.
+<div style="margin-bottom: 40px;">
+  <h3 style="text-align: center; font-size: 1.75rem; font-weight: bold;">Bachelor Thesis</h3>
+  <ul style="font-size: 1.2rem; padding-left: 20px;">
+    <li><strong>Topic:</strong> Numerical Calculation of Zero-Dimensional Thermodynamic Model of EA888 Gasoline Engine</li>
+    <li>Modeled the working process of the engine, and predicted real-time state parameters of the cylinders.</li>
+  </ul>
+</div>
 
 ---
 
