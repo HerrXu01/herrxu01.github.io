@@ -29,10 +29,12 @@ class: resume-page
 
 ## Areas of Interest
 
-- **Machine Learning for Sequential Data**
-- **Large-Scale Machine Learning**
-- **Machine Learning Application**
-- **Machine Learning for Graphs**
+<div style="text-align: center; margin-bottom: 40px;">
+  <p style="font-size: 1.5rem; font-weight: bold; margin: 5px 0;">* Machine Learning for Sequential Data</p>
+  <p style="font-size: 1.5rem; font-weight: bold; margin: 5px 0;">* Large-Scale Machine Learning</p>
+  <p style="font-size: 1.5rem; font-weight: bold; margin: 5px 0;">* Machine Learning Application</p>
+  <p style="font-size: 1.5rem; font-weight: bold; margin: 5px 0;">* Machine Learning for Graphs</p>
+</div>
 
 ---
 
