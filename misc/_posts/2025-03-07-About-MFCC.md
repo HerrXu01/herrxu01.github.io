@@ -15,3 +15,5 @@ This phenomenon occurs because our perception of pitch is not based on the absol
 ## Maths
 
 1. **Pre-Emphasis**
+
+2. **Framing**
