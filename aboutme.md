@@ -107,13 +107,13 @@ class: resume-page
 
 ## Skills
 
-- **ML Skills:** PyTorch, NumPy, NetworkX, Matplotlib, SciPy, Pandas, Scikit-Learn
-- **Technical Skills:** Git, Weights & Biases, LaTeX
+- **⭐ ML Skills:** PyTorch, NumPy, NetworkX, Matplotlib, SciPy, Pandas, Scikit-Learn
+- **⭐ Technical Skills:** Git, Weights & Biases, LaTeX
 
 ---
 
 ## Languages
 
-- **Chinese:** Native Speaker
-- **English:** Proficient (IELTS: 6.5)
-- **German:** Goethe Certificate B2
+- **⭐ Chinese:** Native Speaker
+- **⭐ English:** Proficient (IELTS: 6.5)
+- **⭐ German:** Goethe Certificate B2
