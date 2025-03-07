@@ -3,6 +3,7 @@ layout: post
 title: "About MFCC"
 date: 2025-03-07
 categories: misc
+mathjax: true
 tags: [misc, mfcc]
 ---
 
