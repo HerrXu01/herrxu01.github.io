@@ -14,4 +14,4 @@ This phenomenon occurs because our perception of pitch is not based on the absol
 
 ## Maths
 
-### Pre-Emphasis
+1. **Pre-Emphasis**
