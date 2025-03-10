@@ -27,9 +27,9 @@ Most audio signals in nature, including speech and music, have higher energy in 
 
 Since the high-frequency components have lower energy, audio processing tasks (such as speech recognition or music analysis) may struggle to capture features effectively due to the weak high-frequency signals. To address this, we often enhance the high-frequency components before feature extraction, typically using **a high-pass filter** for pre-emphasis:
 
-$$
+\begin{equation}
 y[n] = x[n] - \alpha x[n-1]
-$$,
+\end{equation}
 
 where \\(x[n]\\) is the raw audio signal, \\(y[n]\\) is the signal after filtering, and \\(\alpha\\) is the filter coefficient, usually lying in 0.95~0.97.
 
