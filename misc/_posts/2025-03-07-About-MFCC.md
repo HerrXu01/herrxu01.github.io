@@ -17,23 +17,24 @@ This phenomenon occurs because our perception of pitch is not based on the absol
 
 1. **Pre-Emphasis**
 
-Most audio signals in nature, including speech and music, have higher energy in the low-frequency range and lower energy in the high-frequency range. The main reasons for this phenomenon are as follows:
+    Most audio signals in nature, including speech and music, have higher energy in the low-frequency range and lower energy in the high-frequency range. The main reasons for this phenomenon are as follows:
 
-* **Human Voice:** The human vocal organs (vocal cords, resonance cavities) primarily generate low- and mid-frequency signals, while high-frequency signals are relatively weaker. An intuitive example is that vowels (a, e, i, o, u) are typically concentrated in the low-frequency range, whereas consonants (s, f, t, sh) contain more high-frequency components but are relatively weaker.
+    - **Human Voice:** The human vocal organs (vocal cords, resonance cavities) primarily generate low- and mid-frequency signals, while high-frequency signals are relatively weaker. An intuitive example is that vowels (a, e, i, o, u) are typically concentrated in the low-frequency range, whereas consonants (s, f, t, sh) contain more high-frequency components but are relatively weaker.
 
-* **Sounds in Nature:** Many natural sound signals (such as wind noise and musical instrument sounds) experience greater absorption or scattering of high-frequency components during propagation, leading to lower energy in the high-frequency range.
+    - **Sounds in Nature:** Many natural sound signals (such as wind noise and musical instrument sounds) experience greater absorption or scattering of high-frequency components during propagation, leading to lower energy in the high-frequency range.
 
-* **Characteristics of Recording Equipment and Microphones:** The sensors in recording devices may exhibit significant attenuation in the high-frequency range, causing the recorded audio signal to have lower energy in the high-frequency region.
+    - **Characteristics of Recording Equipment and Microphones:** The sensors in recording devices may exhibit significant attenuation in the high-frequency range, causing the recorded audio signal to have lower energy in the high-frequency region.
 
-Since the high-frequency components have lower energy, audio processing tasks (such as speech recognition or music analysis) may struggle to capture features effectively due to the weak high-frequency signals. To address this, we often enhance the high-frequency components before feature extraction, typically using **a high-pass filter** for pre-emphasis:
+    Since the high-frequency components have lower energy, audio processing tasks (such as speech recognition or music analysis) may struggle to capture features effectively due to the weak high-frequency signals. To address this, we often enhance the high-frequency components before feature extraction, typically using **a high-pass filter** for pre-emphasis:
 
-\begin{equation}
-y[n] = x[n] - \alpha x[n-1]
-\end{equation}
+    \begin{equation}
+    y[n] = x[n] - \alpha x[n-1]
+    \end{equation}
 
-where \\(x[n]\\) is the raw audio signal, \\(y[n]\\) is the signal after filtering, and \\(\alpha\\) is the filter coefficient, usually lying in 0.95~0.97.
+    where \\(x[n]\\) is the raw audio signal, \\(y[n]\\) is the signal after filtering, and \\(\alpha\\) is the filter coefficient, usually lying in 0.95~0.97.
 
-If the signal changes rapidly (i.e., contains more high-frequency components), the difference between \\( x[n] \\) and \\( x[n-1] \\) is large, which means the high-frequency components are enhanced.  
-If the signal changes slowly (i.e., contains more low-frequency components), the difference between \\( x[n] \\) and \\( x[n-1] \\) is small, which means the low-frequency components are attenuated.
+    If the signal changes rapidly (i.e., contains more high-frequency components), the difference between \\( x[n] \\) and \\( x[n-1] \\) is large, which means the high-frequency components are enhanced.  
+    If the signal changes slowly (i.e., contains more low-frequency components), the difference between \\( x[n] \\) and \\( x[n-1] \\) is small, which means the low-frequency components are attenuated.
 
 2. **Framing**
+    Test test
