@@ -37,4 +37,11 @@ This phenomenon occurs because our perception of pitch is not based on the absol
     If the signal changes slowly (i.e., contains more low-frequency components), the difference between \\( x[n] \\) and \\( x[n-1] \\) is small, which means the low-frequency components are attenuated.
 
 2. **Framing**
-    Test test
+
+    Since an audio signal is a continuous time-series signal, and MFCC requires extracting features within short time windows, the audio signal needs to be divided into multiple short frames. Typically:  
+
+    - Each frame length is 20-40 ms (commonly 25 ms).  
+
+    - The frame shift (the overlap between consecutive frames) is 10-15 ms to prevent information loss.  
+
+    If the audio sampling rate is $f_s$
