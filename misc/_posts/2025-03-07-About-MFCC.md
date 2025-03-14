@@ -44,4 +44,22 @@ This phenomenon occurs because our perception of pitch is not based on the absol
 
     - The frame shift (the overlap between consecutive frames) is 10-15 ms to prevent information loss.  
 
-    If the audio sampling rate is \\(f_s\\)
+    If the audio sampling rate is \\(f_s\\), then the number of samples per frame is:
+
+    \begin{equation}
+    N = frame length \times f_s
+    \end{equation}
+
+    Example:  
+
+    If the sampling rate is \\(f_s = 16 kHz\\) (16000 samples per second), with a frame length of 25 ms, the number of samples per frame is:
+
+    \begin{equation}
+    N = 0.0025 \times 16000 = 400 samples,
+    \end{equation}
+
+    with a frame shift of 10 ms,the starting position gap between neighboring frames is:
+
+    \begin{equation}
+    N_step = 0.01 \times 16000 = 160 samples.
+    \end{equation}
