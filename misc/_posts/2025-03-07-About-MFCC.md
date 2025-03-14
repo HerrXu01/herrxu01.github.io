@@ -44,4 +44,4 @@ This phenomenon occurs because our perception of pitch is not based on the absol
 
     - The frame shift (the overlap between consecutive frames) is 10-15 ms to prevent information loss.  
 
-    If the audio sampling rate is $f_s$
+    If the audio sampling rate is \\(f_s\\)
