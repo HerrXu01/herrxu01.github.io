@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Probabilistic Inference"
-date: 2024-10-04
+date: 2025-03-22
 categories: ai-knowledge machine-learning
 learning_order: 3
 ---
