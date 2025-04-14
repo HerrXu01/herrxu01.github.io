@@ -45,10 +45,10 @@ Understanding input-output structure helps in choosing the right model (e.g., ma
 To work with sequence data in models like RNNs, it's important to define clear notation. Here's a typical NLP example:
 
 **Input sequence (x):**  
-"Sherlock Holmes and John Watson lived at 221B Baker Street in London."
+*"Sherlock Holmes and John Watson lived at 221B Baker Street in London."*
 
 We notate the sentence word by word:  
 \begin{equation}
-x_<1> = "Sherlock"
-x_<2> = "Holmes"
+x^{<1>} = "Sherlock"  
+x^{<2>} = "Holmes"
 \end{equation}
