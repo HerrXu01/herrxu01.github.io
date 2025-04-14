@@ -48,7 +48,10 @@ To work with sequence data in models like RNNs, it's important to define clear n
 *"Sherlock Holmes and John Watson lived at 221B Baker Street in London."*
 
 We notate the sentence word by word:  
-\begin{equation}
-x^{<1>} = "Sherlock"  
-x^{<2>} = "Holmes"
-\end{equation}
+\begin{align}
+x^{\langle 1 \rangle} &= \text{"Sherlock"} \\
+x^{\langle 2 \rangle} &= \text{"Holmes"} \\
+x^{\langle 3 \rangle} &= \text{"and"} \\
+x^{\langle 4 \rangle} &= \text{"John"} \\
+x^{\langle 5 \rangle} &= \text{"Watson"}
+\end{align}
