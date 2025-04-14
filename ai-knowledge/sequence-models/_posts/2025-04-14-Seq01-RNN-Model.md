@@ -64,4 +64,6 @@ Here the label \\(y = 1\\) means the corresponding word is a part of a name, whi
 
 For the **i-th** training example:
   - Here, one example represents one sentence. The whole dataset may contain a lot of sentences.
-  - \\(X^{(i)\langle 1 \rangle}\\)
+  - \\(X^{(i)\langle t \rangle}\\): the **t-th** word in the **i-th** sentence (example) in the dataset.
+  - \\(Y^{(i)\langle t \rangle}\\): the **t-th** label in the **i-th** sentence (example) in the dataset.
+  - \\(T_x^{(t)}\\), \\(T_y^{(t)}\\): input/output lengths for example **i**.
