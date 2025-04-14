@@ -19,5 +19,9 @@ title: AI Knowledge
     <h2><a href="/ai-knowledge/large-models/">Large Models</a></h2>
   </div>
 
+  <div class="course-card">
+    <h2><a href="/ai-knowledge/sequence-models/">Sequence Models</a></h2>
+  </div>
+
   <!-- Add more courses as needed -->
 </div>
