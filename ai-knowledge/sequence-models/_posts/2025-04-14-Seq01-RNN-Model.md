@@ -47,7 +47,7 @@ To work with sequence data in models like RNNs, it's important to define clear n
 **Input sequence (x):**  
 *"Sherlock Holmes and John Watson lived at 221B Baker Street in London."*
 
-We notate the sentence word by word:  
+We notate (tokenize) the sentence word by word:  
 $$
 x^{\langle 1 \rangle} = \text{"Sherlock"},\quad x^{\langle 2 \rangle} = \text{"Holmes"},\quad \dots,\quad x^{\langle t \rangle},\quad \dots,\quad x^{\langle 12 \rangle} = \text{"London"}
 $$
@@ -64,4 +64,4 @@ Here the label \\(y = 1\\) means the corresponding word is a part of a name, whi
 
 For the **i-th** training example:
   - Here, one example represents one sentence. The whole dataset may contain a lot of sentences.
-  
+  - \\(X^{(i)\langle 1 \rangle}\\)
