@@ -51,3 +51,17 @@ We notate the sentence word by word:
 $$
 x^{\langle 1 \rangle} = \text{"Sherlock"},\quad x^{\langle 2 \rangle} = \text{"Holmes"},\quad \dots,\quad x^{\langle t \rangle},\quad \dots,\quad x^{\langle 12 \rangle} = \text{"London"}
 $$
+
+We use \\(T_x = 12\\) to denote the length of the input sequence.  
+
+**Output sequence (y):**  
+Suppose the task is **named entity recognition (NER)**, where each word gets a binary label:  
+$$
+y^{\langle 1 \rangle} = 1, y^{\langle 2 \rangle} = 1, \quad \dots, \quad y^{\langle t \rangle},\quad \dots,\quad y^{\langle 12 \rangle} = 0
+$$
+
+Here the label \\(y = 1\\) means the corresponding word is a part of a name, while \\(y = 0\\) means the corresponding word is **not** a part of a name. The output length \\(T_y = 12\\) in this case is the same as \\(T_x\\), because we're predicting one label per token. But in general, \\(T_x\\) and \\(T_y\\) could be different for other tasks.  
+
+For the **i-th** training example:
+  - Here, one example represents one sentence. The whole dataset may contain a lot of sentences.
+  
