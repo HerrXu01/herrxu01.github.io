@@ -67,3 +67,48 @@ For the **i-th** training example:
   - \\(X^{(i)\langle t \rangle}\\): the **t-th** word in the **i-th** sentence (example) in the dataset.
   - \\(Y^{(i)\langle t \rangle}\\): the **t-th** label in the **i-th** sentence (example) in the dataset.
   - \\(T_x^{(t)}\\), \\(T_y^{(t)}\\): input/output lengths for example **i**.
+
+
+## Representing Words: One-Hot Encoding
+
+To process natural language with sequence models, we first need to convert words into numerical representations. We do it through two steps.  
+
+1. **Vocabulary construction**
+    | Index  | Word        |
+    |--------|-------------|
+    | 1      | a           |
+    | 2      | about       |
+    | ...    | ...         |
+    | 367    | at          |
+    | ...    | ...         |
+    | 4076   | Holmes      |
+    | ...    | ...         |
+    | 7235   | Watson      |
+    | ...    | ...         |
+    | ...    | ...         |
+    | 10,000 | `<UNK>`     |
+
+    > Note: Words not in the vocabulary are mapped to `<UNK>` (unknown token).
+
+    Assume vocabulary size \( |V| = 10{,}000 \).
+
+2. **One-hot encoding**
+
+    Each word \\( x^{\langle t \rangle} \\) is represented as a one-hot vector of **length 10,000**:
+    - A vector with all zeros except a 1 at the index corresponding to the word
+    - For example:  
+        - "Holmes" → a vector with 1 at position 4076, 0s elsewhere  
+          $$
+          \text{one-hot}("Holmes") =
+          [0,\, 0,\, \dots,\, 0,\, \underset{4076}{1},\, 0,\, \dots,\, 0] \in \mathbb{R}^{10000}
+          $$
+        - "Watson" → 1 at position 7235, 0s elsewhere  
+          $$
+          \text{one-hot}("Watson") =
+          [0,\, 0,\, \dots,\, 0,\, \underset{7235}{1},\, 0,\, \dots,\, 0] \in \mathbb{R}^{10000}
+          $$
+        - "221B" → 1 at position 10000, 0s elsewhere ("221B" is not in our vocabulary, so it is mapped to `<UNK>`)
+          $$
+          \text{one-hot}("221B") =
+          [0,\, 0,\, \dots,\, \underset{10000}{1}] \in \mathbb{R}^{10000}
+          $$
