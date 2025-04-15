@@ -91,7 +91,7 @@ To process natural language with sequence models, we first need to convert words
 
     > Note: Words not in the vocabulary are mapped to `<UNK>` (unknown token).
 
-    Assume vocabulary size \( |V| = 10000 \).
+  Assume vocabulary size \( |V| = 10000 \).
 
 2. **One-hot encoding**
 
@@ -114,8 +114,8 @@ To process natural language with sequence models, we first need to convert words
           [0,\, 0,\, \dots,\, \underset{10000}{1}] \in \mathbb{R}^{10000}
           $$
 
-    > 🔍 One-hot encoding is simple and works well for small vocabularies, but:
-    > - It does **not capture semantic similarity** (e.g., "cat" and "dog" are equally distant as "cat" and "carpet").
-    > - The vectors are **sparse** and **high-dimensional**.
+    🔍 One-hot encoding is simple and works well for small vocabularies, but:  
+    It does **not capture semantic similarity** (e.g., "cat" and "dog" are equally distant as "cat" and "carpet").  
+    The vectors are **sparse** and **high-dimensional**.  
 
     Later we'll explore more expressive word representations like **word embeddings** (e.g., word2vec, GloVe).
