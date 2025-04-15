@@ -66,7 +66,7 @@ For the **i-th** training example:
   - Here, one example represents one sentence. The whole dataset may contain a lot of sentences.
   - \\(X^{(i)\langle t \rangle}\\): the **t-th** word in the **i-th** sentence (example) in the dataset.
   - \\(Y^{(i)\langle t \rangle}\\): the **t-th** label in the **i-th** sentence (example) in the dataset.
-  - \\(T_x^{(t)}\\), \\(T_y^{(t)}\\): input/output lengths for example **i**.
+  - \\(T_x^{(i)}\\), \\(T_y^{(i)}\\): input/output lengths for example **i**.
 
 
 ## Representing Words: One-Hot Encoding
@@ -121,3 +121,5 @@ To process natural language with sequence models, we first need to convert words
     Later we'll explore more expressive word representations like **word embeddings** (e.g., word2vec, GloVe).
 
     Thus, an entire sentence can be represented as a sequence of one-hot vectors, typically organized into a 2D array (matrix) of shape \\( T \times V \\), where \\( T \\) is the number of tokens in the sentence and \\( V \\) is the vocabulary size. Our task is to find a map \\(f\\) to map from the input \\(x\\) to the target \\(y\\).
+
+## Can we use a standard network?
