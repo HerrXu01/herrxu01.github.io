@@ -100,22 +100,22 @@ To process natural language with sequence models, we first need to convert words
     - For example:  
         - "Holmes" → a vector with 1 at position 4076, 0s elsewhere  
           $$
-          \text{one-hot}("Holmes") =
+          x^{\langle 2 \rangle} = \text{one-hot}("Holmes") =
           [0,\, 0,\, \dots,\, 0,\, \underset{4076}{1},\, 0,\, \dots,\, 0] \in \mathbb{R}^{10000}
           $$
         - "Watson" → 1 at position 7235, 0s elsewhere  
           $$
-          \text{one-hot}("Watson") =
+          x^{\langle 5 \rangle} = \text{one-hot}("Watson") =
           [0,\, 0,\, \dots,\, 0,\, \underset{7235}{1},\, 0,\, \dots,\, 0] \in \mathbb{R}^{10000}
           $$
         - "221B" → 1 at position 10000, 0s elsewhere ("221B" is not in our vocabulary, so it is mapped to `<UNK>`)
           $$
-          \text{one-hot}("221B") =
+          x^{\langle 8 \rangle} = \text{one-hot}("221B") =
           [0,\, 0,\, \dots,\, \underset{10000}{1}] \in \mathbb{R}^{10000}
           $$
 
     🔍 One-hot encoding is simple and works well for small vocabularies, but:  
-    It does **not capture semantic similarity** (e.g., "cat" and "dog" are equally distant as "cat" and "carpet").  
-    The vectors are **sparse** and **high-dimensional**.  
+      - It does **not capture semantic similarity** (e.g., "cat" and "dog" are equally distant as "cat" and "carpet").  
+      - The vectors are **sparse** and **high-dimensional**.  
 
     Later we'll explore more expressive word representations like **word embeddings** (e.g., word2vec, GloVe).
