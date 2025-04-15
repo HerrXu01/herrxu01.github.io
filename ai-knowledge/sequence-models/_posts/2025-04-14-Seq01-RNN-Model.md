@@ -112,3 +112,9 @@ To process natural language with sequence models, we first need to convert words
           \text{one-hot}("221B") =
           [0,\, 0,\, \dots,\, \underset{10000}{1}] \in \mathbb{R}^{10000}
           $$
+
+    > 🔍 One-hot encoding is simple and works well for small vocabularies, but:
+    > - It does **not capture semantic similarity** (e.g., "cat" and "dog" are equally distant as "cat" and "carpet").
+    > - The vectors are **sparse** and **high-dimensional**.
+
+    Later we'll explore more expressive word representations like **word embeddings** (e.g., word2vec, GloVe).
