@@ -123,3 +123,7 @@ To process natural language with sequence models, we first need to convert words
     Thus, an entire sentence can be represented as a sequence of one-hot vectors, typically organized into a 2D array (matrix) of shape \\( T \times V \\), where \\( T \\) is the number of tokens in the sentence and \\( V \\) is the vocabulary size. Our task is to find a map \\(f\\) to map from the input \\(x\\) to the target \\(y\\).
 
 ## Can we use a standard network?
+
+The following image shows that we apply a fully connected network.  
+
+![fc_net](/assets/img/sequence_models/fc.jpg)
