@@ -91,7 +91,7 @@ To process natural language with sequence models, we first need to convert words
 
     > Note: Words not in the vocabulary are mapped to `<UNK>` (unknown token).
 
-  Assume vocabulary size \( |V| = 10000 \).
+  Assume vocabulary size \\( |V| = 10000 \\).
 
 2. **One-hot encoding**
 
