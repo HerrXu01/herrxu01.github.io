@@ -74,6 +74,7 @@ For the **i-th** training example:
 To process natural language with sequence models, we first need to convert words into numerical representations. We do it through two steps.  
 
 1. **Vocabulary construction**
+
     | Index  | Word        |
     |--------|-------------|
     | 1      | a           |
@@ -90,7 +91,7 @@ To process natural language with sequence models, we first need to convert words
 
     > Note: Words not in the vocabulary are mapped to `<UNK>` (unknown token).
 
-    Assume vocabulary size \( |V| = 10{,}000 \).
+    Assume vocabulary size \( |V| = 10000 \).
 
 2. **One-hot encoding**
 
